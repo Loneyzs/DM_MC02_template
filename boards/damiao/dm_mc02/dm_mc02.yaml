@@ -1,0 +1,21 @@
+identifier: dm_mc02
+name: DM-MC-Board02
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+ram: 564
+flash: 1024
+supported:
+  - adc
+  - can
+  - counter
+  - gpio
+  - i2c
+  - pwm
+  - spi
+  - usb_device
+  - watchdog
+vendor: damiao

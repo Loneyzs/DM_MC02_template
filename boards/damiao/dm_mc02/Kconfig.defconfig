@@ -1,0 +1,8 @@
+# SPDX-License-Identifier: Apache-2.0
+
+if BOARD_DM_MC02
+
+config BOARD
+	default "dm_mc02"
+
+endif # BOARD_DM_MC02
